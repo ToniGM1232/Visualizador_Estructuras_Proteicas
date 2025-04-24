@@ -1,0 +1,23 @@
+name: protein-viewer
+channels:
+  - conda-forge
+  - bioconda
+  - schrodinger
+dependencies:
+  - python=3.9
+  - pip
+  - biopython
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipywidgets
+  - streamlit
+  - pytest
+  - mdtraj
+  - nglview
+  - pip:
+    - py3dmol
+    - biotite
+    # - streamlit-nglview
